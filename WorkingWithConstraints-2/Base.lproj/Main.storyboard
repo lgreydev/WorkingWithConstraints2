@@ -44,7 +44,7 @@
                             <constraint firstItem="lJ0-pV-Lnd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tDX-XU-9fF"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Screen 1" image="rectangle.topthird.inset" catalog="system" id="H5F-EJ-fid"/>
+                    <tabBarItem key="tabBarItem" title="Screen 1" image="rectangle.fill.on.rectangle.fill" catalog="system" id="H5F-EJ-fid"/>
                     <connections>
                         <outlet property="greenButton" destination="rW3-tq-HsZ" id="BPK-4Z-4P0"/>
                         <outlet property="yellowBotton" destination="lJ0-pV-Lnd" id="qeM-Dl-cNU"/>
@@ -73,7 +73,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="rectangle.topthird.inset" catalog="system" width="128" height="93"/>
+        <image name="rectangle.fill.on.rectangle.fill" catalog="system" width="128" height="96"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
