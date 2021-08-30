@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="SjJ-wO-pPj">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="OneScreenController" customModule="WorkingWithConstraints_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJ0-pV-Lnd" userLabel="YellowBotton">
-                                <rect key="frame" x="184" y="743" width="46" height="30"/>
+                                <rect key="frame" x="172" y="691" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -25,7 +25,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rW3-tq-HsZ" userLabel="GreenButton">
-                                <rect key="frame" x="184" y="673" width="46" height="30"/>
+                                <rect key="frame" x="172" y="621" width="46" height="30"/>
                                 <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
@@ -65,17 +65,49 @@
                     </tabBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="vWs-Va-d3c"/>
+                        <segue destination="HUi-xr-JhP" kind="relationship" relationship="viewControllers" id="TkV-wo-MpB"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="paN-Zu-Gy2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-91.304347826086968" y="71.651785714285708"/>
         </scene>
+        <!--Screen 2-->
+        <scene sceneID="hcX-zw-loc">
+            <objects>
+                <viewController id="HUi-xr-JhP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uHR-Db-jpy">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUZ-Hd-lIU">
+                                <rect key="frame" x="80" y="57" width="230" height="541"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="UuG-w0-2Ce"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UuG-w0-2Ce" firstAttribute="bottom" secondItem="FUZ-Hd-lIU" secondAttribute="bottom" constant="163" id="0sY-vw-IGa"/>
+                            <constraint firstItem="UuG-w0-2Ce" firstAttribute="trailing" secondItem="FUZ-Hd-lIU" secondAttribute="trailing" constant="80" id="3Qf-Vy-nxf"/>
+                            <constraint firstItem="FUZ-Hd-lIU" firstAttribute="top" secondItem="UuG-w0-2Ce" secondAttribute="top" constant="13" id="j8E-CQ-f1h"/>
+                            <constraint firstItem="FUZ-Hd-lIU" firstAttribute="leading" secondItem="UuG-w0-2Ce" secondAttribute="leading" constant="80" id="rTC-ZX-GQe"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Screen 2" image="rectangle.fill.on.rectangle.fill" catalog="system" id="LD8-PK-sRH"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qc9-7Y-QOu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-92" y="1017"/>
+        </scene>
     </scenes>
     <resources>
         <image name="rectangle.fill.on.rectangle.fill" catalog="system" width="128" height="96"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
