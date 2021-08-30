@@ -81,15 +81,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FUZ-Hd-lIU">
-                                <rect key="frame" x="80" y="57" width="230" height="541"/>
+                                <rect key="frame" x="80" y="57" width="160" height="284"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="heu-gK-z1s">
+                                        <rect key="frame" x="20" y="243" width="120" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstItem="heu-gK-z1s" firstAttribute="leading" secondItem="FUZ-Hd-lIU" secondAttribute="leading" constant="20" id="IzF-GD-ZfF"/>
+                                    <constraint firstAttribute="width" constant="160" id="NSE-pG-tof"/>
+                                    <constraint firstAttribute="bottom" secondItem="heu-gK-z1s" secondAttribute="bottom" constant="20" id="QsB-P6-FLt"/>
+                                    <constraint firstAttribute="trailing" secondItem="heu-gK-z1s" secondAttribute="trailing" constant="20" id="YE9-GV-Mmn"/>
+                                    <constraint firstAttribute="height" constant="284" id="d3f-OY-u9P"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="UuG-w0-2Ce"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="UuG-w0-2Ce" firstAttribute="bottom" secondItem="FUZ-Hd-lIU" secondAttribute="bottom" constant="163" id="0sY-vw-IGa"/>
-                            <constraint firstItem="UuG-w0-2Ce" firstAttribute="trailing" secondItem="FUZ-Hd-lIU" secondAttribute="trailing" constant="80" id="3Qf-Vy-nxf"/>
                             <constraint firstItem="FUZ-Hd-lIU" firstAttribute="top" secondItem="UuG-w0-2Ce" secondAttribute="top" constant="13" id="j8E-CQ-f1h"/>
                             <constraint firstItem="FUZ-Hd-lIU" firstAttribute="leading" secondItem="UuG-w0-2Ce" secondAttribute="leading" constant="80" id="rTC-ZX-GQe"/>
                         </constraints>
