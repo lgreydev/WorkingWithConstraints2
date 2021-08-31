@@ -9,52 +9,6 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Screen 1-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="OneScreenController" customModule="WorkingWithConstraints_2" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lJ0-pV-Lnd" userLabel="YellowBotton">
-                                <rect key="frame" x="137" y="410" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="szY-HE-YC9"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rW3-tq-HsZ" userLabel="GreenButton">
-                                <rect key="frame" x="137" y="340" width="46" height="30"/>
-                                <color key="backgroundColor" red="0.55634254220000001" green="0.97934550050000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7D5-go-amg"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="rW3-tq-HsZ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7lL-zV-l3w"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="lJ0-pV-Lnd" secondAttribute="bottom" constant="40" id="FHI-bp-Fgr"/>
-                            <constraint firstItem="lJ0-pV-Lnd" firstAttribute="width" secondItem="rW3-tq-HsZ" secondAttribute="width" id="FwA-1B-ggL"/>
-                            <constraint firstItem="lJ0-pV-Lnd" firstAttribute="top" secondItem="rW3-tq-HsZ" secondAttribute="bottom" constant="40" id="GF3-qZ-itw"/>
-                            <constraint firstItem="lJ0-pV-Lnd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d5w-tO-SWU"/>
-                            <constraint firstItem="lJ0-pV-Lnd" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tDX-XU-9fF"/>
-                        </constraints>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Screen 1" image="rectangle.fill.on.rectangle.fill" catalog="system" id="H5F-EJ-fid"/>
-                    <connections>
-                        <outlet property="greenButton" destination="rW3-tq-HsZ" id="BPK-4Z-4P0"/>
-                        <outlet property="yellowBotton" destination="lJ0-pV-Lnd" id="qeM-Dl-cNU"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="818.84057971014499" y="71.651785714285708"/>
-        </scene>
         <!--Screen 2-->
         <scene sceneID="hcX-zw-loc">
             <objects>
