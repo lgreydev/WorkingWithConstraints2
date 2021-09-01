@@ -12,7 +12,7 @@
         <!--Screen 2-->
         <scene sceneID="hcX-zw-loc">
             <objects>
-                <viewController id="HUi-xr-JhP" sceneMemberID="viewController">
+                <viewController id="HUi-xr-JhP" customClass="ViewController" customModule="WorkingWithConstraints_2" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uHR-Db-jpy">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -199,6 +199,9 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Screen 2" image="rectangle.fill.on.rectangle.fill" catalog="system" id="LD8-PK-sRH"/>
+                    <connections>
+                        <outlet property="containerView" destination="1DF-HB-BEb" id="iTl-le-8Rc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qc9-7Y-QOu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
