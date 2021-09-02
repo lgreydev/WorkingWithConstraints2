@@ -2,7 +2,7 @@
 The following screen show how you can use stack views and constraints to create layouts of increasing complexity. Auto Layout dynamically calculates the size and position of all the views in your view hierarchy, based on constraints placed on those views.
 
 
-<br><img src="https://github.com/lgreydev/WorkingWithConstraints/blob/main/Screenshots/001.jpg" width="270"><br>
+<br><img src="https://github.com/lgreydev/WorkingWithConstraints2/blob/main/Screenshots/001.jpg" width="270"><br>
 
 
 ## Contributing
